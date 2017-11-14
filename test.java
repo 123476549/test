@@ -36,7 +36,7 @@ public class Manager extends BaseBean {
         this.managerRealName = managerRealName;
     }
 
-    private String managerRoleId;//角色Id
+    private String managerRoleId;//角色编号
     public String getManagerRoleId() {
         return managerRoleId == null ? "" : managerRoleId.trim();
     }
